@@ -7,7 +7,8 @@ import { Hero } from '../hero';
   styleUrls: ['./hero-detail.component.css'],
 })
 export class HeroDetailComponent {
-  @Input() hero?: Hero;
+  @Input() hero?: Hero; // question mark is not needed, input is always non-required
+  // remove dead code
   // @Output() editNameEvent = new EventEmitter<string>();
 
   // updateHeroname(value: string) {
